@@ -1,6 +1,6 @@
 ---
-- name: Installing httpd package on local system
+- name: Installing telnet package on local system
   yum:
-   name: httpd
-   state: latest
+   name: telnet
+   state: present
 ...

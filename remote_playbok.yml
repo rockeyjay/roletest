@@ -1,0 +1,6 @@
+---
+- name: webserver package installation
+  hosts: 10.128.0.6
+  roles:
+   - rmt.yml
+...

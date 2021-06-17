@@ -2,5 +2,5 @@
 - name: webserver package installation
   hosts: localhost
   roles:
-   - lkl.yml
+   - lrole
 ...

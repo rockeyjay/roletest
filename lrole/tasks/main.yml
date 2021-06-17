@@ -3,8 +3,4 @@
   yum:
    name: httpd
    state: latest
-- name: Starting the httpd service
-  service: 
-   name: httpd
-   state: restarted
 ...
